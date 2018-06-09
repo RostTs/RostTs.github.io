@@ -1,0 +1,103 @@
+
+	*{
+		margin:0;
+		padding:0;
+	}
+	body{
+		background-color:#f3f3f3;
+	}
+	 .mainBanner{
+		 margin: 0 auto;
+		 width:1000px;
+		 height:300px;
+		 background-color: #fff;
+		 overflow: hidden;
+		 position: relative;
+		 }
+		  .mainBanner .img_ban {
+		   width:100%;
+		   height:100%;
+		   position:absolute;
+		   top:0px;
+		   transition:all easy-in-out 500ms;
+		   -webkit-transition:all easy-in-out 500ms;
+		   -moz-transition:all easy-in-out 500ms;
+		   -o-transition:all easy-in-out 500ms;}
+		  
+	    .mainBanner #image_ban1{
+		   background-image: url(images/Banner1.jpeg);
+		   background-size: cover;
+		   background-position: center;
+		   background-repeat: no-repeat;
+		   }
+		.mainBanner #image_ban2{
+		   background-image: url(images/Banner2.jpeg);
+		   background-size: cover;
+		   background-position: center;
+		   background-repeat: no-repeat;
+		   }
+		 .mainBanner #image_ban3{
+		   background-image: url(images/Banner3.jpeg);
+		   background-size: cover;
+		   background-position: center;
+		   background-repeat: no-repeat;
+		   }
+		   
+		   .imgbutton{
+			   width:40px;
+			   height:40px;
+			   background-color:;
+			   border-radius:;
+			   position:absolute;
+			   top:130px;
+			   z-index:2000;
+			   opacity:0.8;
+			   cursor:pointer;
+		   }
+		   .imgbutton:hover{
+			   opacity:0.9;
+			   }
+			   
+			   .imgbutton_prev{
+				   left:5px;
+				   background-image:url(images/arrow_carrot-left_alt.png);
+				   background-size:60%;
+				   background-position:center;
+				   background-repeat:no-repeat;
+			   }
+			   
+			   .imgbutton_next{
+				   right:5px;
+				   background-image:url(images/arrow_carrot-right_alt.png);
+				   background-size:60%;
+				   background-position:center;
+				   background-repeat:no-repeat;
+			   }
+			   
+			   .mainBanner .imgban-box h2 {
+				   font-family:New-Roman;
+				   color:white;
+				   font-size:60px;
+			   }
+			   
+			   .mainBanner .imgban-box p {
+				   font-family:New-Roman;
+				   color:white;
+				   font-size:16px;
+				   padding-top:6px;
+			   }
+			   
+			   .mainBanner #image_ban3 .imgban-box {
+				   padding-top:200px;
+				   padding-left:90px;
+			   }
+			   .mainBanner #image_ban2 .imgban-box {
+				   padding-top:200px;
+				   padding-right:90px;
+				   float:right;
+				   text-align:right;
+			   }
+			   .mainBanner #image_ban1 .imgban-box {
+				   padding-top:140px;
+				   padding-left:90px;
+			   }
